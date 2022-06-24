@@ -37,7 +37,7 @@ After=multi-user.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/USER/.vnc/passwd -rfbport 5900 -shared
+ExecStart=/usr/bin/x11vnc -auth guess -forever -loop -noxdamage -repeat -rfbauth /home/**USER**/.vnc/passwd -rfbport 5900 -shared
 
 [Install]
 WantedBy=multi-user.target
