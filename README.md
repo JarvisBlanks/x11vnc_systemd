@@ -1,5 +1,5 @@
 # About
-x11vnc is a fantastic VNC server which runs regardless of the Desktop Environment which means it can run before a user session has initialised and therefore works with a reboot at the login screen.
+**x11vnc** is a fantastic **VNC server** which runs regardless of the **Desktop Environment** which means it can run before a user session has initialised and therefore works with a reboot at the login screen.
 
 This works in any **systemd** environment that I have tried.
 
